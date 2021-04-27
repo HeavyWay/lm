@@ -176,3 +176,7 @@ body {
   text-transform: uppercase;
   font-size: 48px;
 }
+
+#youtube {
+  text-align-last: center;
+}
