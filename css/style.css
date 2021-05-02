@@ -27,7 +27,9 @@ body {
     line-height: 1.2;
     padding: 0 14px;
     text-transform: uppercase;
-    text-decoration: none; 
+    text-decoration: none;
+    position: relative;
+    left: 93%; 
 }
 
 .a-social:hover {
@@ -39,7 +41,9 @@ body {
     line-height: 1.2;
     padding: 0 14px;
     text-transform: uppercase;
-    text-decoration: none; 
+    text-decoration: none;
+    position: absolute;
+    left: 96%; 
 }
 .a-full-list:hover {
     color: grey;
