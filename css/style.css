@@ -22,7 +22,7 @@ body {
     z-index: 1111;
 }
 
-.ru_botton {
+.ru-botton {
     color: #34495e;
     line-height: 1.2;
     padding: 0 14px;
@@ -32,11 +32,11 @@ body {
     
 }
 
-.ru_botton:hover {
+.ru-botton:hover {
     color: grey;
 }
 
-.pl_botton {
+.pl-botton {
     color: #34495e;
     line-height: 1.2;
     padding: 0 14px;
@@ -45,7 +45,7 @@ body {
     position: absolute;
      
 }
-.pl_botton:hover {
+.pl-botton:hover {
     color: grey;
 }
 
