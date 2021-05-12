@@ -205,11 +205,11 @@ fsEnter.addEventListener('click', function (e) {
     if (!fullscreen) {
         fullscreen = true;
         document.documentElement.requestFullscreen();
-        fsEnter.innerHTML = "Exit Fullscreen";
+        fsEnter.innerHTML = "Вийти з повноекранного режиму";
     }
     else {
         fullscreen = false;
         document.exitFullscreen();
-        fsEnter.innerHTML = "Go Fullscreen";
+        fsEnter.innerHTML = "Повноекранний режим";
     }
 });
