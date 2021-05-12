@@ -22,30 +22,30 @@ body {
     z-index: 1111;
 }
 
-.a-social {
+.ru_botton {
     color: #34495e;
     line-height: 1.2;
     padding: 0 14px;
     text-transform: uppercase;
     text-decoration: none;
     position: relative;
-    left: 93%; 
+    
 }
 
-.a-social:hover {
+.ru_botton:hover {
     color: grey;
 }
 
-.a-full-list {
+.pl_botton {
     color: #34495e;
     line-height: 1.2;
     padding: 0 14px;
     text-transform: uppercase;
     text-decoration: none;
     position: absolute;
-    left: 96%; 
+     
 }
-.a-full-list:hover {
+.pl_botton:hover {
     color: grey;
 }
 
