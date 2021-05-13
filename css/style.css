@@ -351,3 +351,12 @@ font-weight: 700;
   font-size: 10px;
   
 }
+
+h6 {
+  height: 555px;
+}
+
+.py-3 {
+  background:rgb(221, 220, 220) ;
+  border-radius:250px;
+}
