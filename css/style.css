@@ -192,8 +192,8 @@ body {
   color:bisque
   
 }
-/* ------------- в    ---------------- 
----------------- Перелік нового ---------------*/
+/* -------------                    ---------------- 
+---------------- 3 блока з роботами ---------------*/
 
 .list-content{
   margin: 0;
@@ -211,6 +211,7 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .container .card{
@@ -294,4 +295,59 @@ body {
 .container .card .face.face2 .content a:hover{
   background: #333;
   color: #fff;
+}
+/* Кінець трьох блоків на сайті в якості контенту нового */
+
+.footer{background:#6a67ce;} /*фон подвала */
+.social-icons ul{
+list-style: none;
+display: flex;
+justify-content: center;
+}
+.social-icons ul li a span {
+color: #000;
+width: 34px;
+background: #fff;
+height: 34px;
+text-align: center;
+line-height: 34px;
+border-radius: 20px;
+font-size: 13px;
+margin: 0px 2px;
+border-radius: 20px;
+font-size: 14px;
+margin: 0px 2px;
+transition: 0.5s all;
+-webkit-transition: 0.5s all;
+transition: 0.5s all;
+-moz-transition: 0.5s all;
+}
+.social-icons ul li a span:hover{color:#0ccbf1;}
+.copy-bottom-txt .p-footer{font-size:18px;
+color: rgb(92, 92, 92);
+}
+.social-icons ul li:nth-child(2){
+margin: 0 10px;
+}
+.copy-bottom-txt p a {
+font-size: 18px;
+color:#000;
+letter-spacing: 1px;
+transition: .4s;
+}
+.copy-bottom-txt p a:hover {
+color: #000;
+text-decoration: underline;
+padding-top: 4px;
+font-weight: 700;
+}
+
+.p-footer {
+  text-align: center;
+}
+
+.p-last-update {
+  text-align: center;
+  font-size: 10px;
+  
 }
